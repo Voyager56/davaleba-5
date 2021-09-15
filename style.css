@@ -1,83 +1,93 @@
-body{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
 }
 header{
     background-color: #0A22F4;
     height: 388px;
+    width: 100%;
+}
 
-}
-nav{
-    text-align: right;
-    padding-top: 27px;
-    padding-right: 50px;
-}
 #nav-bar{
     float: right;
+    margin-top: 60px;
 }
+
 li{
     display: inline;
+    margin-right: 40px;
 }
+
 a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
-    padding: 15px;
-    width: 70px;
-    height: 18px;
-}
-content{
-    height: 1767px;
-
 }
 
-footer{
-    height: 1080px;
-    background-color: #0A22F4;
-
-}
 #contact{
     background-color: white;
     color: black;
     border-radius: 28px;
+    height: 55px;
+    width: 100px;
+    padding: 18px 35px 18px 35px;
+}
+
+#content{
+    margin:-108px auto;
+    display: block;
+    text-align: center;
 }
 
 #main_image{
     width: 1195px;
     height: 600px;
-    margin-left: 362px;
-    margin-top: -108px;
-    border-radius: 15px;
 }
 
 h1{
-    margin-left: 362px;
-    font-size: 28px;
-    width: 714px;
     height: 33px;
-    font: bold;
-    padding: 15px;
+    position: relative;
+    left: -310px;
+    margin-top: 30px;
+    flex: 0 0 auto;
+}
+#image_container{
+    margin-top: 13px;
+    right: 100;
+    padding: 0;
+    display: inline-table;
+    margin-bottom: 60px;
 }
 
-#image_container{
-    margin-left: 337px;
-    margin-top: 13px;
-    display: flex;
-    padding-left: 25px;
+#image_container li{
+    margin-right: 25px;
+    display: inline;
+    position: relative;
+    left: 15px;
 }
 
 img{
-    padding: 12.5px;
     height: 219px;
     width: 219px;
     border-radius: 15px;
 }
 
-p{
+#content p{
     font-size: 16px;
-    margin-left: 485px;
     width: 951px;
     line-height: 30px;
     height: fit-content;
+    margin: 0 auto;
 }
 #content:last-of-type p{
     margin-bottom: 58px;
@@ -88,33 +98,39 @@ p{
     height: 55px;
     background-color: #0A22F4;
     border-radius: 28px;
-    margin-left: 847px;
+    margin: 0 auto;
+    padding: 20px 70px 20px 70px;
+}
+footer{
+    height: 1080px;
+    background-color: #0A22F4;
+    position: relative;
 }
 
 #contact_h{
+    width: fit-content;
+    left: 100px;
     margin-top: 180px;
-    margin-left: 240px;
     padding-top: 275px;
     color: white;
-    padding-left: 0;
 }
+
 
 #lorem-contact{
     width: 464px;
     height: 99px;
     color: white;
-    margin-left: 240px;
     margin-top: 30px;
+    position: relative;
+    left: 100px;
 }
 
 #footer-list{
     text-align: right;
-    margin-right: 587px;
     color: white;
 }
 
 .line{
-    margin-left: 1296px;
     width: 587px;
     height: 41px;
     border-bottom: 1px solid white;
@@ -126,7 +142,6 @@ p{
     margin-bottom: 0px;
     margin-top: 40px;
     width: max-content;
-    margin-left: 1296px;
 }
 
 div:last-of-type{
@@ -137,7 +152,6 @@ div:last-of-type{
     background-color: white;
     color: black;
     border-radius: 28px;
-    margin-left: 1700px;
     width: 151px;
     height: 55px;
 }
