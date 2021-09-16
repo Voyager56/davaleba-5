@@ -1,0 +1,134 @@
+#nav-bar{
+    margin-top: 27px;
+    margin-right: 50px;
+    float: right;
+}
+#nav-bar li{
+    display: inline;
+    margin: 15px;
+}
+
+#nav-bar:last-of-type li{
+    width: 70px;
+    height: 18px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+content{
+    height: 1767px;
+}
+
+footer{
+    height: 1080px;
+    background-color: #0A22F4;
+
+}
+#contact{
+    background-color: white;
+    color: black;
+    border-radius: 28px;
+}
+
+#main_image{
+    width: 1195px;
+    height: 600px;
+    margin-left: 362px;
+    margin-top: -108px;
+    border-radius: 15px;
+}
+
+h1{
+    margin-left: 362px;
+    font-size: 28px;
+    width: 714px;
+    height: 33px;
+    font: bold;
+    padding: 15px;
+}
+
+#image_container{
+    margin-left: 337px;
+    margin-top: 13px;
+    display: flex;
+    padding-left: 25px;
+}
+
+img{
+    padding: 12.5px;
+    height: 219px;
+    width: 219px;
+    border-radius: 15px;
+}
+
+#content p{
+    font-size: 16px;
+    margin-left: 485px;
+    width: 951px;
+    line-height: 30px;
+    height: fit-content;
+}
+#content:last-of-type p{
+    margin-bottom: 58px;
+}
+
+#more_info{
+    width: 341px;
+    height: 55px;
+    background-color: #0A22F4;
+    border-radius: 28px;
+    margin-left: 847px;
+}
+
+#contact_h{
+    margin-top: 180px;
+    margin-left: 240px;
+    padding-top: 275px;
+    color: white;
+    padding-left: 0;
+}
+
+#lorem-contact{
+    width: 464px;
+    height: 99px;
+    color: white;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+#footer-list{
+    margin-right: 587px;
+    color: white;
+}
+
+.line{
+    margin-left: 1296px;
+    width: 587px;
+    height: 41px;
+    border-bottom: 1px solid white;
+    position: relative;
+    opacity: 0.1;
+}
+
+#footer-list p{
+    margin-bottom: 0px;
+    margin-top: 40px;
+    width: max-content;
+    margin-left: 1296px;
+}
+
+div:last-of-type{
+    margin-bottom: 58px
+}
+
+#send{
+    background-color: white;
+    color: black;
+    border-radius: 28px;
+    margin-left: 1700px;
+    width: 151px;
+    height: 55px;
+}
