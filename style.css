@@ -23,7 +23,13 @@ header{
     float: right;
     margin-top: 60px;
 }
-
+#logo{
+    display: inline;
+    float: left;
+    position: relative;
+    left: 100px;
+    margin-top: 40px;
+}
 li{
     display: inline;
     margin-right: 40px;
@@ -73,10 +79,10 @@ h1{
     margin-right: 25px;
     display: inline;
     position: relative;
-    left: 15px;
+    left: 12px;
 }
 
-img{
+#image_container li img{
     height: 219px;
     width: 219px;
     border-radius: 15px;
@@ -128,24 +134,26 @@ footer{
 #footer-list{
     text-align: right;
     color: white;
+    float: right;
+    margin-top: -100px;
 }
 
-.line{
-    width: 587px;
-    height: 41px;
-    border-bottom: 1px solid white;
-    position: relative;
-    opacity: 0.1;
-}
 
 #footer-list p{
-    margin-bottom: 0px;
-    margin-top: 40px;
-    width: max-content;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 48px;
+    text-align: left;
+    width: 586px;
 }
 
-div:last-of-type{
-    margin-bottom: 58px
+#footer-list li{
+    margin-bottom: 0px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: right;
+}
+#footer-list:last-of-type p{
+    margin-bottom: 58px;
 }
 
 #send{
