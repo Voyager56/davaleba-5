@@ -69,7 +69,6 @@ h1{
 }
 #image_container{
     margin-top: 13px;
-    right: 100;
     padding: 0;
     display: inline-table;
     margin-bottom: 60px;
@@ -79,7 +78,7 @@ h1{
     margin-right: 25px;
     display: inline;
     position: relative;
-    left: 1px;
+    left: 10px;
 }
 
 #image_container li img{
