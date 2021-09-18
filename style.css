@@ -170,12 +170,9 @@ label{
     margin-bottom: 50px;
 }
 input{
-    color: white;
     background-color: #0A22F4;
     border: none;
     height: 30px;
-    border-bottom: 1px solid white;
-    opacity: 0.3;
     width: 300px;
     margin-bottom: 20px;
 }
@@ -184,10 +181,12 @@ input{
     height: 200px;
     background-color: #0A22F4;
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     width: 97%;
 }
-
+input,textarea{
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+}
 #submit_button{
     background-color: white;
     color: black;
