@@ -182,10 +182,10 @@ input{
     background-color: #0A22F4;
     border: none;
     width: 97%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 input,textarea{
     color: white;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 }
 #submit_button{
     background-color: white;
